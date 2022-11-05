@@ -8,7 +8,8 @@
 ### - Introdução ao JavaScript - Aula 02 (05/11/2022)
 
 
--------> :construction: Projeto em andamento :construction: <-------
+<h4 align="center"> -------> :construction: Projeto em andamento :construction: <------- </h4>
+
 <!--
 
 '#68ff46'
