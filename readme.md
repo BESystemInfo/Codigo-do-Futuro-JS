@@ -1,4 +1,4 @@
-# Código do Futuro - Febrafar/Farmarcas & GAMA Academy
+# Código do Futuro - Febrafar/Farmarcas & GAMA Academy '#68ff46'
 
 ## JavaScript - Aula Síncrona
 
