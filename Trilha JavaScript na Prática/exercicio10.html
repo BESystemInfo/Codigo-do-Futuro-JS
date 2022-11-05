@@ -1,0 +1,13 @@
+<!--
+    Utilizando os conceitos que estudamos, vamos criar um programa que irá nos informar os dias de aula para a nossa turma.
+-->
+<script>
+    dia = prompt("Informe o dia da semana por extenso, com a primeira letra maiúscula. \nEx.: Segunda")
+    if (dia == "Segunda" || dia == "Terça" || dia == "Quarta" || dia == "Quinta" || dia == "Sexta") {
+        alert(`Hoje é dia de aula. Sua aula será das 19h às 22h.`)
+    } else if (dia == "Sábado") {
+        alert(`Hoje é dia de aula. Sua aula será das 09h as 12h.`)
+    } else {
+        alert("Hoje não tem aula.")
+    }
+</script>
