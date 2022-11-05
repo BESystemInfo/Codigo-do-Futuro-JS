@@ -12,6 +12,6 @@
 * Exercícios sobre prompt, alert, variáveis, concatenação, operações com variáveis, tipos de dados e conversão de dados.
 
 ### - 📁 Introdução ao JavaScript - Aula 02 (05/11/2022)
-
+* Exercícios de revisão e de condicionais.
 
 <h3 align="center"> -------> :construction: Projeto em andamento :construction: <------- </h3>
