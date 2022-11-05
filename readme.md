@@ -5,6 +5,8 @@
 ### - Introdução ao JavaScript - Aula 01 (04/11/2022)
 * Exercícios sobre prompt, alert, variáveis, concatenação, operações com variáveis, tipos de dados e conversão de dados.
 
+### - Introdução ao JavaScript - Aula 02 (05/11/2022)
+
 
 -------> Em andamento <-------
 <!--
