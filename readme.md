@@ -1,4 +1,4 @@
-<h1 align="center" style="color:#68ff46;"> Código do Futuro - Febrafar/Farmarcas & GAMA Academy </h1>
+<h1 align="center" style="color:#68ff46"> Código do Futuro - Febrafar/Farmarcas & GAMA Academy </h1>
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=GREEN&style=for-the-badge"/></p>
 
 ## JavaScript - Aula Síncrona
