@@ -1,11 +1,12 @@
-# Código do Futuro - Febrafar/Farmarcas & GAMA Academy 
+<h1 align="center" style="color:#68ff46;"> Código do Futuro - Febrafar/Farmarcas & GAMA Academy </h1>
+<p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=GREEN&style=for-the-badge"/></p>
 
 ## JavaScript - Aula Síncrona
 
-### - Introdução ao JavaScript - Aula 01 (04/11/2022)
+### - 📁 Introdução ao JavaScript - Aula 01 (04/11/2022)
 * Exercícios sobre prompt, alert, variáveis, concatenação, operações com variáveis, tipos de dados e conversão de dados.
 
-### - Introdução ao JavaScript - Aula 02 (05/11/2022)
+### - 📁 Introdução ao JavaScript - Aula 02 (05/11/2022)
 
 
 <h4 align="center"> -------> :construction: Projeto em andamento :construction: <------- </h4>
