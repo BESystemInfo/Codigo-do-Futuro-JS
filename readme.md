@@ -1,4 +1,4 @@
-# Código do Futuro (Code of the Future)
+# Código do Futuro - Febrafar/Farmarcas & GAMA Academy
 
 ## JavaScript - Aula Síncrona
 
