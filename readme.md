@@ -1,8 +1,8 @@
 <table>
-<th width=auto><img src="https://codigodofuturo.corporate.gama.academy/wp-content/uploads/sites/41/2022/08/codigo-do-futuro-Favicon-150x150.png" alt="Logo Código do Futuro" width="60" height="60">
-</th>
-<th border: none><h1 align="center"><span style="color:green">Código do Futuro - Febrafar/Farmarcas & GAMA Academy </span></h1>
-</th>
+<td width=150px><img src="https://codigodofuturo.corporate.gama.academy/wp-content/uploads/sites/41/2022/08/codigo-do-futuro-Favicon-150x150.png" alt="Logo Código do Futuro" width="60" height="60">
+</td>
+<td border: none><h1 align="center"><span style="color:green">Código do Futuro - Febrafar/Farmarcas & GAMA Academy </span></h1>
+</td>
 </table>
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=GREEN&style=for-the-badge"/></p>
 
