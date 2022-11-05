@@ -1,5 +1,5 @@
 <table>
-<td width=100px><img src="https://codigodofuturo.corporate.gama.academy/wp-content/uploads/sites/41/2022/08/codigo-do-futuro-Favicon-150x150.png" alt="Logo Código do Futuro" width="60" height="60">
+<td width=100px border:none><img src="https://codigodofuturo.corporate.gama.academy/wp-content/uploads/sites/41/2022/08/codigo-do-futuro-Favicon-150x150.png" alt="Logo Código do Futuro" width="60" height="60">
 </td>
 <td border: none><h1 align="center"><span style="color:green">Código do Futuro - Febrafar/Farmarcas & GAMA Academy </span></h1>
 </td>
