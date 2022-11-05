@@ -1,4 +1,9 @@
-<h1 align="center"><img src="https://codigodofuturo.corporate.gama.academy/wp-content/uploads/sites/41/2022/08/codigo-do-futuro-Favicon-150x150.png" alt="Logo Código do Futuro" width="30" height="30">Código do Futuro - Febrafar/Farmarcas & GAMA Academy</h1>
+<table>
+<th border: none><img src="https://codigodofuturo.corporate.gama.academy/wp-content/uploads/sites/41/2022/08/codigo-do-futuro-Favicon-150x150.png" alt="Logo Código do Futuro" width="30" height="30">
+</th>
+<th border: none><h1 align="center"><span style="color:green">Código do Futuro - Febrafar/Farmarcas & GAMA Academy </span></h1>
+</th>
+</table>
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=GREEN&style=for-the-badge"/></p>
 
 ## JavaScript - Aula Síncrona
