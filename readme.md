@@ -14,7 +14,7 @@
 ### - 📁 Introdução ao JavaScript - Aula 02 (05/11/2022)
 
 
-<h4 align="center"> -------> :construction: Projeto em andamento :construction: <------- </h4>
+<h3 align="center"> -------> :construction: Projeto em andamento :construction: <------- </h3>
 
 <!--
 
