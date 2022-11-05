@@ -1,4 +1,4 @@
-<table>
+<table align="center">
 <td width=100px style="border:none"><img src="https://codigodofuturo.corporate.gama.academy/wp-content/uploads/sites/41/2022/08/codigo-do-futuro-Favicon-150x150.png" alt="Logo Código do Futuro" width="60" height="60">
 </td>
 <td border: none><h1 align="center">Código do Futuro</h1></br><h3>Febrafar/Farmarcas & GAMA Academy</h3>
