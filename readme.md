@@ -1,4 +1,4 @@
-# Código do Futuro - Febrafar/Farmarcas & GAMA Academy '#68ff46'
+# Código do Futuro - Febrafar/Farmarcas & GAMA Academy 
 
 ## JavaScript - Aula Síncrona
 
@@ -8,8 +8,10 @@
 ### - Introdução ao JavaScript - Aula 02 (05/11/2022)
 
 
--------> Em andamento <-------
+-------> :construction: Projeto em andamento :construction: <-------
 <!--
+
+'#68ff46'
 ## 🗂 Modules
 
 ### 1 Front-end
