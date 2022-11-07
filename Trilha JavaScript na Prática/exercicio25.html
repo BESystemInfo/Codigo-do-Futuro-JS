@@ -1,0 +1,13 @@
+<!--
+    Crie uma função que recebe 2 parâmetros e retorna o resultado da divisão entre eles. Além disso, se o resto dessa divisão for zero deverá imprimir no console o valor e dizer que ele é par.
+-->
+<script>
+    num1 = Number(prompt("Informe o primeiro número:"))
+    num2 = Number(prompt("Informe o segundo número:"))
+    divisao = num1/num2
+    if (divisao%2==0){
+        alert(`O resultado da divisão entre os dois números é de ${divisao.toFixed(2)}. Esse número é par.`)
+    } else {
+        alert(`O resultado da divisão entre os dois números é de ${divisao.toFixed(2)}. Esse número é ímpar.`)
+    }
+</script>

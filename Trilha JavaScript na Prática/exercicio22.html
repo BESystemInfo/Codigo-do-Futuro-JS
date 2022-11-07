@@ -1,0 +1,26 @@
+<!--
+    Vamos criar uma conta bancária com as 3 operações básicas? rs
+    a) A conta deverá iniciar com o saldo de 100
+    b) Deverá ser possível escolher uma operação em forma de string: 'depositar', 'sacar', 'consultar saldo'
+    c) Deverá ser possível passar 1 valor para a operação escolhida
+    d) Deverá retornar o resultado e imprimir no console o saldo atual|
+-->
+<script>
+    saldo = 100
+    operacao = prompt("Informe a operação: \nDepositar, Sacar ou Consultar Saldo.")
+    if (operacao == "Depositar" || operacao == "Sacar") {
+        valor = Number(prompt("Informe o valor:"))
+        if (operacao == "Depositar") {
+            deposito = saldo + valor
+            alert(`Foram adicionados R$ ${valor.toFixed(2)} ao seu saldo. \nO saldo atual é de R$ ${deposito.toFixed(2)}.`)
+        } else if (operacao == "Sacar") {
+            saque = saldo - valor
+            alert(`Foram sacados R$ ${valor.toFixed(2)} do seu saldo. \nO saldo atual é de R$ ${saque.toFixed(2)}.`)
+        }
+    } else if (operacao == "Consultar Saldo"){
+        alert(`O saldo atual é R$ ${saldo.toFixed(2)}.`)
+    } else {
+        alert("Nenhuma operação foi selecionada.")
+    }
+    
+</script>

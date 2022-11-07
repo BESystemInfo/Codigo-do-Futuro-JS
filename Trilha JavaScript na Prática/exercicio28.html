@@ -1,0 +1,10 @@
+<!--
+    Solicite o preço de uma mercadoria e o percentual de desconto. Exiba no console o valor do desconto e o preço a pagar.
+-->
+<script>
+    valor = Number(prompt("Informe o preço:"))
+    desconto = Number(prompt("Informe o desconto:"))/100
+    valorDesconto = valor*desconto
+    valorTotal = valor-valorDesconto
+    alert(`O desconto é de R$ ${valorDesconto.toFixed(2)}. \nO valor à pagar é de R$ ${valorTotal.toFixed(2)}.`)
+</script>
