@@ -1,0 +1,46 @@
+<!--
+    Biana é uma pessoa muito indecisa. Ela precisa juntar dinheiro para conseguir viajar em suas férias. 
+    Ela terá algumas opções a escolher, com seus respectivos valores:
+
+    Disney = R$ 15000
+    Madrid = R$ 12000
+    Maceió = R$ 8000
+    Ribeirão Preto = R$ 5000
+
+    Faça um programa que solicite o nome do usuário, o valor que o usuário tem para a viagem, a viagem que o usuário deseja e mostre no final se o usuário pode viajar ou se não pode. 
+    Se ele não puder viajar, mostre o quanto falta para o mesmo economizar. 
+-->
+<script>
+    var destino
+    const disney = 15000
+    const madrid = 12000
+    const maceio = 8000
+    const ribeirao = 5000
+    let nome = prompt("Informe seu nome:")
+    let valorViagem = Number(prompt("Informe o valor disponível para a viagem:"))
+    let destinoEscolhido = Number(prompt("Informe o destino que deseja ir:"))
+    switch (destino) {
+        case destinoEscolhido == "Disney":
+            var destino = 1
+            
+        case destinoEscolhido == "Madrid":
+            var destino = 2
+            
+        case destinoEscolhido == "Maceió":
+            var destino = 3
+            
+        case destinoEscolhido == "Ribeirão Preto":
+            var destino = 4
+    }
+    if (destino == "1" && valorViagem >= disney) {
+        alert("Você pode viajar para a Disney.")
+    } else if (destino == "2" && valorViagem >= madrid) {
+        alert("Você pode viajar para Madrid.")
+    } else if (destino == "3" && valorViagem >= maceio) {
+        alert("Você pode viajar para Maceió.")    
+    } else if (destino == "4" && valorViagem >= ribeirao) {
+        alert("Você pode viajar para Ribeirão Preto.")    
+    } else {
+        alert("Você não pode viajar. ")
+    }
+</script>
