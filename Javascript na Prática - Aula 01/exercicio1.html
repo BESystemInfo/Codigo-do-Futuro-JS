@@ -11,36 +11,34 @@
     Se ele não puder viajar, mostre o quanto falta para o mesmo economizar. 
 -->
 <script>
-    var destino
     const disney = 15000
     const madrid = 12000
     const maceio = 8000
     const ribeirao = 5000
-    let nome = prompt("Informe seu nome:")
-    let valorViagem = Number(prompt("Informe o valor disponível para a viagem:"))
-    let destinoEscolhido = Number(prompt("Informe o destino que deseja ir:"))
-    switch (destino) {
-        case destinoEscolhido == "Disney":
-            var destino = 1
-            
-        case destinoEscolhido == "Madrid":
-            var destino = 2
-            
-        case destinoEscolhido == "Maceió":
-            var destino = 3
-            
-        case destinoEscolhido == "Ribeirão Preto":
-            var destino = 4
+    nome = prompt("Informe seu nome:")
+    valorViagem = Number(prompt("Informe o valor disponível para a viagem:"))
+    destinoEscolhido = Number(prompt("Informe o destino que deseja ir: \n1) Disney\n2) Madrid\n3) Maceió\n4) Ribeirão Preto"))
+    switch (destinoEscolhido) {
+        case 1: 
+        var saldo = valorViagem - disney
+        break;
+        case 2: 
+        var saldo = valorViagem - madrid
+        break;
+        case 3: 
+        var saldo = valorViagem - maceio
+        break;
+        case 4: 
+        var saldo = valorViagem - ribeirao
+        break;
     }
-    if (destino == "1" && valorViagem >= disney) {
-        alert("Você pode viajar para a Disney.")
-    } else if (destino == "2" && valorViagem >= madrid) {
-        alert("Você pode viajar para Madrid.")
-    } else if (destino == "3" && valorViagem >= maceio) {
-        alert("Você pode viajar para Maceió.")    
-    } else if (destino == "4" && valorViagem >= ribeirao) {
-        alert("Você pode viajar para Ribeirão Preto.")    
+
+    if (saldo > 0) {
+        console.log(`Parabéns ${nome}. Você poderá viajar e ainda lhe sobrarão ${saldo.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}.`)
     } else {
-        alert("Você não pode viajar. ")
+        saldo = saldo*(-1)
+        console.log(`${nome}, infelizmente seu saldo é insuficiente para a viagem. Faltam ${saldo.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}.`)
     }
+
+
 </script>
