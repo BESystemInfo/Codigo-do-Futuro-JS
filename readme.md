@@ -18,6 +18,6 @@
 * Exercícios das aulas assíncronas na plataforma da Gama Academy.
 
 ### - 📁 JavaScript na prática - Aula 01 (08/11/2022)
-* Exercídios de condicionais (Revisão do if e adição de switch/case) e exercícios de loop (for e while).
+* Exercídios de condicionais (Revisão do if e adição de switch/case) e exercícios de laços de repetição (for e while).
 
 <h3 align="center"> -------> :construction: Projeto em andamento :construction: <------- </h3>
