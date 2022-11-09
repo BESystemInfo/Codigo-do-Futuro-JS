@@ -18,26 +18,50 @@
         Se a nota for menor que 5: Reprovado 
 -->
 <script>
-    let alunos[]
-    let notas[]
-    selecao = Number(prompt("Informe a opção desejada: \n1)Cadastro\n2)Relatório\n3)Consulta"))
-    qtdNotas = Number(prompt("Informe a quantidade de notas a serem inseridas:"))
-    if (selecao == 1) {
-        alert("Selecionado o cadastro de alunos.")
-        nome = prompt("Informe o nome do aluno")
-        matrícula = Number(prompt("Informe o número da matrícula"))
-        qtdNotas = Number(prompt("Informe a quantidade de notas à serem inseridas:"))
-        let cont = 1
-        while (cont <= qtdNotas) {
-            notas.push = Number(prompt(`Informe ${cont}º a nota`))
-            cont++
+    var alunos = []
+    var selecao
+    while (selecao != 4) {
+    selecao = Number(prompt("Informe a opção desejada: \n1) Cadastro\n2) Relatório\n3) Consulta\n4) Sair"))
+    
+        if (selecao == 1) {
+            alert("Selecionado o cadastro de alunos.")
+            nome = prompt("Informe o nome do aluno")
+            matricula = Number(prompt("Informe o número da matrícula"))
+            qtdNotas = Number(prompt("Informe a quantidade de notas à serem inseridas:"))
+            let cont = 1
+            notas = []
+            while (cont <= qtdNotas) {
+                notas.push(Number(prompt(`Informe a ${cont}º nota`)))
+                cont++
+            }
+            notasTexto = notas.toString()
+            somaNotas = notas.reduce(function(somaNotas, i) {
+                return somaNotas +i
+            })
+            media = somaNotas/qtdNotas
+            if (media >= 7) {
+                situacao = "Aprovado"
+            } else if (media >=5 && media < 7) {
+                situacao = "Recuperação"
+            } else {
+                situacao = "Reprovado"
+            }
+            alunos.push({'nome': nome, 'matricula': matricula, 'notas': notasTexto, 'media': media, 'situacao': situacao})
         }
-
-    } else if (selecao == 2) {
-        console.log("Seleção 2")
-    } else if (selecao == 3) {
-        console.log("Seleção 3")
-    } else {
-        alert("Opção inválida ou não selecionada.")
+        if (selecao == 2) {
+            alert("Selecionada a opção de Relatórios")
+            console.table(alunos)
+            
+        } else if (selecao == 3) {
+            alert("Selecionada a opção de Consulta")
+            tipoPesquisa = prompt("Como gostaria de pesquisar?\n1) Nome\n2) Matrícula")
+            if (tipoPesquisa == 1) {
+                pesquisaNome = prompt("Informe o nome do aluno:")
+            } else if (tipoPesquisa == 2) {
+                pesquisaMatricula = Number(prompt("Informe o número da Matrícula do aluno:"))
+            }
+        }
     }
+
+
 </script>
