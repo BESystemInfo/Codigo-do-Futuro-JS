@@ -14,4 +14,10 @@
 ### - 📁 Introdução ao JavaScript - Aula 02 (05/11/2022)
 * Exercícios de revisão e de condicionais.
 
+### - 📁 Trilha JavaScript na Prática - Aulas Assíncronas
+* Exercícios das aulas assíncronas na plataforma da Gama Academy.
+
+### - 📁 JavaScript na prática - Aula 01 (08/11/2022)
+* Exercícios de loop (for e while).
+
 <h3 align="center"> -------> :construction: Projeto em andamento :construction: <------- </h3>
