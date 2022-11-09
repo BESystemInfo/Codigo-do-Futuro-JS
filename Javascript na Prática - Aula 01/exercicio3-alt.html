@@ -45,8 +45,8 @@
                 //Transforma o array de notas em String
                 notasTexto = notas.toString()
                 //Soma todas as notas dentro do array "notas"
-                somaNotas = notas.reduce(function(somaNotas, i) {
-                    return somaNotas +i
+                somaNotas = notas.reduce(function(notaAnterior, notaAtual) {
+                    return notaAnterior +notaAtual
                 })
                 //Calcula a média das notas
                 media = somaNotas/qtdNotas
@@ -59,7 +59,13 @@
                     situacao = "Reprovado"
                 }
                 //Adiciona todas as variáveis registradas como objeto dentro do array "alunos" criado no começo do código
-                alunos.push({'nome': nome, 'matricula': matricula, 'notas': notasTexto, 'media': media, 'situacao': situacao})
+                alunos.push({
+                    'nome': nome,
+                    'matricula': matricula, 
+                    'notas': notasTexto, 
+                    'media': media, 
+                    'situacao': situacao
+                })
                 continue
             //Se selecionado 2, entra na condicional de relatórios
             case 2: 
