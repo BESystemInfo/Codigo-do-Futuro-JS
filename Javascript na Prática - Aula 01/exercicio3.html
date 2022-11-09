@@ -57,8 +57,12 @@
             tipoPesquisa = prompt("Como gostaria de pesquisar?\n1) Nome\n2) Matrícula")
             if (tipoPesquisa == 1) {
                 pesquisaNome = prompt("Informe o nome do aluno:")
+                encontraNome = alunos.find(aluno => aluno.nome == pesquisaNome)
+                console.table (encontraNome)
             } else if (tipoPesquisa == 2) {
                 pesquisaMatricula = Number(prompt("Informe o número da Matrícula do aluno:"))
+                encontraMatricula = alunos.find(aluno => aluno.matricula == pesquisaMatricula)
+                console.table (encontraMatricula)
             }
         }
     }
