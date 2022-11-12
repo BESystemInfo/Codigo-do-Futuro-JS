@@ -90,11 +90,11 @@
 
 | Exemplo 22 |  Descrição | Status |
 | --- | --- | --- |
-| `conta bancária` | Vamos criar uma conta bancária com as 3 operações básicas? rs
+| `conta bancária` | Vamos criar uma conta bancária com as 3 operações básicas? rs| OK |
     a) A conta deverá iniciar com o saldo de 100
     b) Deverá ser possível escolher uma operação em forma de string: 'depositar', 'sacar', 'consultar saldo'
     c) Deverá ser possível passar 1 valor para a operação escolhida
-    d) Deverá retornar o resultado e imprimir no console o saldo atual| OK |
+    d) Deverá retornar o resultado e imprimir no console o saldo atual
 
 
 | Exemplo 23 |  Descrição | Status |
@@ -119,11 +119,11 @@
 
 | Exemplo 27 |  Descrição | Status |
 | --- | --- | --- |
-| `Calculadora` | Vamos criar uma calculadora com as 4 operações matemáticas básicas? rs
+| `Calculadora` | Vamos criar uma calculadora com as 4 operações matemáticas básicas? rs| OK |
 
     a) Deverá ser possível escolher uma operação aritimética em forma de string: 'soma', 'multiplicacao', 'divisao' e 'subtracao'
     b) Deverá ser possível passar 2 números para a operação escolhida
-    c) Deverá retornar o resultado e imprimir no console| OK |
+    c) Deverá retornar o resultado e imprimir no console
 
 | Exemplo 28 |  Descrição | Status |
 | --- | --- | --- |
