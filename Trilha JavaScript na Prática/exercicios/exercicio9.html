@@ -6,11 +6,15 @@
     dividePorTres = valor/3
     dividePorCinco = valor/5
 
-    if ((valor/3)==1) {
+    if ((valor%3)==0 && valor%5==0) {
+        alert("FizzBuzz")
+    } else if ((valor%3)==0) {
         alert("Fizz")
-    } else if (valor/5==1) {
+    } else if (valor%5==0) {
         alert("Buzz")
     } else {
         alert(valor)
     }
 </script>
+
+<!-- OK -->

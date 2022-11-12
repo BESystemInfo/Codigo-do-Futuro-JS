@@ -2,11 +2,14 @@
     Crie uma variavel e atribua como valor uma operacao de média entre 5 números inteiros e positivos.
 -->
 <script>
-    numero1 = Number(prompt("Insira um primeiro número inteiro positivo:"))
-    numero2 = Number(prompt("Insira um segundo número inteiro positivo:"))
-    numero3 = Number(prompt("Insira um terceiro número inteiro positivo:"))
-    numero4 = Number(prompt("Insira um quarto número inteiro positivo:"))
-    numero5 = Number(prompt("Insira um quinto número inteiro positivo:"))
-    mediaNumeros = (numero1+numero2+numero3+numero4+numero5)/5
+    let numero = []
+    for (let i=1; i<=5; i++) {
+        numero.push(Number(prompt(`Insira um ${i}º número inteiro positivo:`)))
+    }
+    let soma = numero.reduce((numAnt,numAtual) => {
+        return numAnt + numAtual})
+    mediaNumeros = soma/5
     alert(`A média dos números informados é ${mediaNumeros}`)
 </script>
+
+<!-- OK -->

@@ -7,20 +7,24 @@
 -->
 <script>
     saldo = 100
-    operacao = prompt("Informe a operação: \nDepositar, Sacar ou Consultar Saldo.")
-    if (operacao == "Depositar" || operacao == "Sacar") {
-        valor = Number(prompt("Informe o valor:"))
-        if (operacao == "Depositar") {
-            deposito = saldo + valor
-            alert(`Foram adicionados R$ ${valor.toFixed(2)} ao seu saldo. \nO saldo atual é de R$ ${deposito.toFixed(2)}.`)
-        } else if (operacao == "Sacar") {
-            saque = saldo - valor
-            alert(`Foram sacados R$ ${valor.toFixed(2)} do seu saldo. \nO saldo atual é de R$ ${saque.toFixed(2)}.`)
+    operacao = Number(prompt("Informe a operação: \n1) Depositar\n2) Sacar\n3) Consultar Saldo"))
+    if (operacao == 1 || operacao == 2) {
+    valor = Number(prompt("Informe o valor:"))
+        switch (operacao) {
+            case 1 : 
+                deposito = saldo + valor
+                alert(`Foram adicionados R$ ${valor.toFixed(2)} ao seu saldo. \nO saldo atual é de R$ ${deposito.toFixed(2)}.`)
+                break;
+            case 2 :
+                saque = saldo - valor
+                alert(`Foram sacados R$ ${valor.toFixed(2)} do seu saldo. \nO saldo atual é de R$ ${saque.toFixed(2)}.`)
+                break;
         }
-    } else if (operacao == "Consultar Saldo"){
-        alert(`O saldo atual é R$ ${saldo.toFixed(2)}.`)
+    } else if (operacao == 3){
+        alert(`O saldo atual é R$ ${saldo.toFixed(2)}.`) 
     } else {
-        alert("Nenhuma operação foi selecionada.")
+        alert("Operação Inválida")
     }
-    
 </script>
+
+<!-- OK -->
