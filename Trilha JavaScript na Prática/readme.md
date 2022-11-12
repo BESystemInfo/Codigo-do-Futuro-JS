@@ -51,7 +51,7 @@
 
 | Exemplo 13 |  Descrição | Status |
 | --- | --- | --- |
-| `Tabuada` | Faça um programa que dado um número, imprime no (console.log) a tabuada do mesmo de 1 a 10. |
+| `Tabuada` | Faça um programa que dado um número, imprime no (console.log) a tabuada do mesmo de 1 a 10. | OK |
 
 | Exemplo 14 |  Descrição | Status |
 | --- | --- | --- |
@@ -63,11 +63,12 @@
 
 | Exemplo 16 |  Descrição | Status |
 | --- | --- | --- |
-| `Fatorial` | Crie uma função que irá receber um número e retornar o fatorial dele. por exemplo:  3! = 3 * 2 * 1 // 6 |
+| `Fatorial` | Crie uma função que irá receber um número e retornar o fatorial dele. por exemplo:  3! = 3 * 2 * 1 // 6 | OK |
+
 
 | Exemplo 17 |  Descrição | Status |
 | --- | --- | --- |
-| `Multiplica` | Crie uma função que recebe 2 parâmetros e retorna a multiplicação entre else. |
+| `Multiplica` | Crie uma função que recebe 2 parâmetros e retorna a multiplicação entre else. | OK |
 
 | Exemplo 18 |  Descrição | Status |
 | --- | --- | --- |

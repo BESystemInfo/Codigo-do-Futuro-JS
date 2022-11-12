@@ -4,10 +4,12 @@
 <script>
     num1 = Number(prompt("Informe o primeiro valor:"))
     num2 = Number(prompt("Informe o segundo valor:"))
-    if (num1 != 0 || num2 == null) {
-        null
+    if (num1 == "" || num2 == "") {
+        
     } else {
         multiplicacao = num1*num2
-        alert(`A multiplicação entre ${num1} e ${num2} é ${multiplicacao}`)
+        alert(`${num1} x ${num2} = ${multiplicacao}`)
     }
 </script>
+
+<!-- OK -->
