@@ -155,7 +155,8 @@
 
         - Se a media for igual ou maior que 7 - Aprovado
         - Se a media for maior e igual a cinco e menor que 7 - Recuperação
-        - Se a media for menor que 5 - Reprovado| OK |
+        - Se a media for menor que 5 - Reprovado|
+         OK |  
 
 | Exemplo 35 |  Descrição | Status |
 | --- | --- | --- |
