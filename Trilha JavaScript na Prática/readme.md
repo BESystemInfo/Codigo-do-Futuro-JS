@@ -87,7 +87,7 @@
 
 | Exemplo 21 |  Descrição | Status |
 | --- | --- | --- |
-| `10 em 10` | Imprima na tela a partir de 20 e depois de 10 em 10 até o 100, mas em vez dos numeros 60 e 90 imprima a palavra "CONTINUE".|
+| `10 em 10` | Imprima na tela a partir de 20 e depois de 10 em 10 até o 100, mas em vez dos numeros 60 e 90 imprima a palavra "CONTINUE".| OK |
 
 | Exemplo 22 |  Descrição | Status |
 | --- | --- | --- |
@@ -100,7 +100,7 @@
 
 | Exemplo 23 |  Descrição | Status |
 | --- | --- | --- |
-| `5 em 5` | Crie um algoritmo que imprime no console de 10 a 60, iterando a cada 5, exceto para os numeros 35 e 45 que irão ser substituidos pela palavra "PULOU".|
+| `5 em 5` | Crie um algoritmo que imprime no console de 10 a 60, iterando a cada 5, exceto para os numeros 35 e 45 que irão ser substituidos pela palavra "PULOU".| OK |
 
 | Exemplo 24 |  Descrição | Status |
 | --- | --- | --- |
@@ -113,10 +113,10 @@
 
 | Exemplo 26 |  Descrição | Status |
 | --- | --- | --- |
-| `Repetição` | Utilize a estrutura de repetição for para imprimir no console conforme instruções abaixo: 
+| `Repetição` | Utilize a estrutura de repetição for para imprimir no console conforme instruções abaixo: | OK |
     a) números de 1 a 100  
     b) quando chegar no número 50 interrompa a instrução e pare o loop 
-    c) quando chegar no número 50 pule a instrução |
+    c) quando chegar no número 50 pule a instrução 
 
 | Exemplo 27 |  Descrição | Status |
 | --- | --- | --- |
@@ -132,7 +132,7 @@
 
 | Exemplo 29 |  Descrição | Status |
 | --- | --- | --- |
-| `Viagem` | Calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média esperada para a viagem..|
+| `Viagem` | Calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média esperada para a viagem..| OK |
 
 | Exemplo 30 |  Descrição | Status |
 | --- | --- | --- |
