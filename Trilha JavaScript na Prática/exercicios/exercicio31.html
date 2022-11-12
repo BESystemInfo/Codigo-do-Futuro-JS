@@ -2,20 +2,30 @@
     Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente.
 -->
 <script>
-    num = Number(prompt("Informe um número de 1 a 7:"))
-    if (num==1){
-        alert("Hoje é domingo.")
-    } else if (num==2){
-        alert("Hoje é segunda.")
-    } else if (num==3){
-        alert("Hoje é terça.")
-    } else if (num==4){
-        alert("Hoje é quarta.")
-    } else if (num==5){
-        alert("Hoje é quinta.")
-    } else if (num==6){
-        alert("Hoje é sexta.")
-    } else if (num==7){
-        alert("Hoje é sábado.")
+    let num = Number(prompt("Informe um número de 1 a 7:"))
+    switch (num) {
+        case 1 :
+            alert(`Hoje é Domingo`)
+            break;
+        case 2 :
+            alert(`Hoje é Segunda-Feira`)
+            break;
+        case 3 :
+            alert(`Hoje é Terça-Feira`)
+            break;
+        case 4 :
+            alert(`Hoje é Quarta-Feira`)
+            break;
+        case 5 :
+            alert(`Hoje é Quinta-Feira`)
+            break;
+        case 6 :
+            alert(`Hoje é Sexta-Feira`)
+            break;
+        case 7 :
+            alert(`Hoje é Sábado`)
+            break;
     }
 </script>
+
+<!-- OK -->

@@ -6,16 +6,23 @@
     c) Deverá retornar o resultado e imprimir no console
 -->
 <script>
-    operacao = prompt("Informe a operação (soma, subtracao, multiplicacao ou divisao):")
+    operacao = prompt("Informe a operação: \n1) Soma\n2) Subtracao\n3) Multiplicacao\n4) Divisao")
     num1 = Number(prompt("Informe o primeiro número:"))
     num2 = Number(prompt("Informe o segundo número:"))
-    if (operacao == "soma"){
-        alert("O valor da soma é de " + (num1+num2) + ".")
-    } else if (operacao == "subtracao") {
-        alert("O valor da subtracao é de " + (num1-num2) + ".")
-    } else if (operacao == "multiplicacao") {
-        alert("O valor da multiplicacao é de " + (num1*num2) + ".")   
-    } else if (operacao == "divisao") {
-        alert("O valor da divisao é de " + (num1/num2) + ".")   
+    switch (operacao) {
+        case "1" :
+            alert("O valor da soma é de " + (num1+num2) + ".")
+            break;
+        case "2" :
+            alert("O valor da subtracao é de " + (num1-num2) + ".")
+            break;
+        case "3" :
+            alert("O valor da multiplicacao é de " + (num1*num2) + ".")
+            break;
+        case "4" :
+            alert("O valor da divisao é de " + (num1/num2) + ".") 
+            break;
     }
 </script>
+
+<!-- OK -->
